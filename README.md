@@ -154,10 +154,8 @@ Response (200 OK):
 - The API assumes that the MongoDB database is running locally.
 - Validation checks for input data are limited to basic checks (e.g., required fields, data types).
 - Security features such as authentication and authorization are not implemented in this version.
-- String and alphabetical validation is set up
+- String and alphabetical validation is set up for the request body.
 
 
 ## UML Diagram
 ![UML Diagram](./images/umlDiagram.jpg)
-
-- You can view the UML diagram by clicking on the provided link. This diagram represents the structure and relationships of the API's classes and models.
