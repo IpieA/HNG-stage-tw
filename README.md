@@ -45,7 +45,7 @@ Your API should now be running at http://localhost:2000.
 
 ### CREATE: Adding a new person
 - POST /api/
-- Create a new person by sending a JSON payload with the person's details in the request body. Required fields: name, age.
+- Create a new person by sending a JSON payload with the person's details in the request body. Required field: name.
 
 ### READ: Fetching details of a person
 - GET /api/:id
@@ -63,7 +63,7 @@ Your API should now be running at http://localhost:2000.
 
 - Requests and responses are in JSON format.
 - Request payloads should follow the format specified in the API documentation.
-- Successful responses will have a status code of 200 OK and 201 created.
+- Successful responses will have a status code of 200 OK or 201 created.
 - Error responses will have appropriate status codes (e.g. 404 Not Found, 500 Internal Server Error, 422 Unprocessable Entity) along with an error message in the response body.
 
 ## Sample Usage
